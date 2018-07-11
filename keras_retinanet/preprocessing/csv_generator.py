@@ -171,12 +171,22 @@ class CSVGenerator(Generator):
 
     def name_to_label(self, name):
         """ Map name to label.
+
+        Returns
+            The label of name. Returns -1 if it doesn't exist.
         """
+        if name not in self.classes:
+            return -1
         return self.classes[name]
 
     def label_to_name(self, label):
         """ Map label to name.
+
+        Returns
+            The name of label. Returns '<unknown>' if it doesn't exist.
         """
+        if label not in self.labels:
+            return '<unknown>'
         return self.labels[label]
 
     def image_path(self, image_index):
