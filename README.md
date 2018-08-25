@@ -76,7 +76,7 @@ for example:
 
 ### 2. execute train.py
 use keras_retinanet/bin/train.py to train face detector, but train.py is hard to use because some arguements should place in right place.Otherwise, it will not work.
-You can use run.train.sh to train face detector. The script shows the right way of using train.py. Before transfer learning, you should download [ResNet-50-model.keras.h5](https://github.com/fizyr/keras-models/releases), and move it to ~/.keras/models.
+You can use run.train.sh to train face detector. The script shows the right way of using train.py. Before transfer learning, you should download [ResNet-50-model.keras.h5](https://pan.baidu.com/s/1KqHCoDF-Wvbyi1TE35dSKQ), and move it to ~/.keras/models.
     
 **transfer learning with frozen backbone**
 ```shell
