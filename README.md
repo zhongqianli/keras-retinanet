@@ -60,14 +60,14 @@ for example(009.jpg has two faces):
 /opt/images/010.jpg,45,62,194,211,face
 ```
   
-    (2)classes file   
-    classes csv file: classes.csv
+(2)classes file   
+classes csv file: classes.csv
 for example:
 ```
 face,0
 ```
-    (3)optionally, validation file
-    validation csv file: images.val.csv  
+(3)optionally, validation file
+validation csv file: images.val.csv  
 for example:
 ```
 /opt/images/008.jpg,45,62,194,211,face
