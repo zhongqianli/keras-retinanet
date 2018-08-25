@@ -1,5 +1,5 @@
 # Face Detection
-Trainning a face detector by transfer learning based on [keras-retinanet](https://github.com/fizyr/keras-retinanet). Training set has 1000 faces, testing set also has 1000 faces. mAP is 99%+. 
+Trainning a face detector by transfer learning based on [keras-retinanet](https://github.com/fizyr/keras-retinanet). Training set has 1000 faces, testing set also has 1000 faces. val_acc is 99%+. 
 
 ## Install keras-retinanet  
    You'd better use ubuntu system rather than windows system.  
