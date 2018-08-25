@@ -47,7 +47,7 @@ result:
 
 ## Training
 ### 1. Save annotations to csv files.  
-(1)training annotations  
+**(1)training annotations**  
 training csv file: images.train.csv  
 format: image_path,left,top,right,bottom,class_name    
 If one image has more than one face, each face's annotation use one line.
@@ -60,13 +60,13 @@ for example(009.jpg has two faces):
 /opt/images/010.jpg,45,62,194,211,face
 ```
   
-(2)classes file   
+**(2)classes file**
 classes csv file: classes.csv
 for example:
 ```
 face,0
 ```
-(3)optionally, validation file
+**(3)optionally, validation file**
 validation csv file: images.val.csv  
 for example:
 ```
