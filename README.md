@@ -90,6 +90,11 @@ python keras_retinanet/bin/train.py --gpu 0 --snapshot-path ./snapshots --backbo
 
 ```
 
+**result**  
+![avatar](images/result/total_loss.png)
+![avatar](images/result/regression_loss.png)
+![avatar](images/result/classification_loss.png)
+
 ### 3. Converting a training model to inference model
 The training procedure of `keras-retinanet` works with *training models*. These are stripped down versions compared to the *inference model* and only contains the layers necessary for training (regression and classification values). If you wish to do inference on a model (perform object detection on an image), you need to convert the trained model to an inference model. This is done as follows:
 
